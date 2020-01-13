@@ -9,20 +9,23 @@ This little coffee app has been inspired by James Hoffman YouTube video about [B
   <img src="/assets/coffee1.gif" width="230"  title="Coffee Brewing Ratios">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-in terms of filter coffee like a pour-over or an AeroPress, how much coffee should I use?
-We recommend using the grams per litre ratio.
-there are several different ways, recipes and ratios and the most
-common one still are scoops, but we don't think it is a good idea. There's no international standard for scoops which are volumetric measurements and they'll have massive fluctuations in actual weight. 
 
-The other commonly used ratios are 1/14, 1/15... It means 1 part of coffee to n parts of water.
-But if I have a desired amount of coffee that I want to brew and I want to work out how much ground coffee I need, the grams per litre ratio is the most useful.  Let's say, I'm brewing half a litre with a 60grams a litre ratio, then I know I need half that, which is 30 grams.
+In terms of filter coffee like a pour-over or an AeroPress, how much coffee should I use?
+
+Using the grams per litre ratio is perhaps the most convenient.
+There are several different ways to measure coffee and the most
+common one still are scoops, but it is not a good idea. 
+There's no international standard for scoops which are volumetric measurements and they'll have massive fluctuations in actual weight. 
+
+The other commonly used ratios systems are 1/14, 1/15... It means 1 part of coffee to n parts of water.
+But if I have a desired amount of coffee that I want to brew and I want to work out how much ground coffee I need, the grams per litre ratio is the most useful way to go.  Let's say, I'm brewing half a litre with a 60grams a litre ratio, then I know I need half that, which is 30 grams.
 
 A pretty good one-size-fits-all ratio is 60 grams per litre but you can choose others like 55 or 75 per litre. That's up to you.
 
-One complicating factor in the world of coffee brewing is extraction.
-In coffee about approximately a third of it is soluble material. Two-thirds of it is pretty much is insoluble. It's cellulose. You could steep that coffee brew forever and still have some grounds left over.
+One factor in the world of coffee brewing is extraction.
+In coffee about approximately a third of it is soluble material. Two-thirds of it is pretty much insoluble. It's cellulose. You could steep that coffee forever and still have some grounds leftover. It would not taste very nice though.
 
-However, the best taste is with around 20-22% extraction.
+The best taste is with around 20-22% extraction.
 Once you're really happy with the taste you can change the ratio or the strength. The strength of my cup of coffee it's a personal thing.
 
 We divide coffee brewing into percolation and infusion.
@@ -35,3 +38,4 @@ If you want a similar extraction and a similar strength you would use more coffe
 Great starting points for any pour-over are about 60 grams a litre. For any infusion brew about 75 grams.
 
 Of course, this can be adjusted according to your preferences and later updates to the app might fix that.
+
