@@ -14,7 +14,8 @@ struct ContentView: View {
     @State private var coffeeOutput = ""
     //@State private var strength = 0
     var ratio = ""
-    let brewerTypes = ["Infusion","Percolation"]
+    var water: Int = 0
+    let brewerTypes = ["Percolation", "Infusion"]
     //let strengths = ["50/lt","55/lt","60/lt","65/lt","70/lt", "75/lt"]
     var totalCoffeeNeeded: (Double, String) {
         // calculate
@@ -40,6 +41,9 @@ struct ContentView: View {
                         .pickerStyle(SegmentedPickerStyle())
                     
                 }
+                Section(header: Text("You should use this much water")) {
+                    Text("\((Double(coffeeOutput) ?? 0) + totalCoffeeNeeded.0, specifier: "%.1f") ml")
+                }
                 
                 Section(header: Text("Brewing method:")) {
                     Picker("", selection: $brewerType) {
@@ -49,7 +53,7 @@ struct ContentView: View {
                     }
                     .pickerStyle(SegmentedPickerStyle())
                 }
-                Section(header: Text("Ratio of water to coffee in gram/liter")) {
+                Section(header: Text("Ratio of water to coffee in gram/liter for an estimated extraction of 20% of coffee weight.")) {
                     Text("Recommended ratio is: \(totalCoffeeNeeded.1)")
                 }
                 Section {
